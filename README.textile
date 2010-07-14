@@ -1,0 +1,25 @@
+h1. Mango
+
+Mango is a web admin written in PHP for MongoDB.
+
+*This in not production ready!*
+
+There are still some issues, that prevent it from being used in a production environment such as XSS vulnerabilities and other security issues.
+
+h2. Author
+
+"Dan Horrigan":http://dhorrigan.com
+
+h3. Mongo_DB Library
+
+The library was originally written for CodeIgniter by *Alex Bilbie* and can be "downloaded here":http://bitbucket.org/alexbilbie/codeigniter-mongo-library/wiki/Home.  I have modified the library to make it work outside of CodeIgniter, as well as added a few functions.
+
+h2. Configuration
+
+The only config you will need to do is edit the $auth in index.php (its documented in there).
+
+If you need to change the connection parameters you will also find those at the top of index.php.
+
+h2. Installation
+
+Just drop the files anywhere on your server available to view a web browser.
