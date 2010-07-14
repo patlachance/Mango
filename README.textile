@@ -25,3 +25,19 @@ h2. Configuration
 The only config you will need to do is edit the $auth in index.php (its documented in there).
 
 If you need to change the connection parameters you will also find those at the top of index.php.
+
+h2. TODO
+
+It's big right now (and in no particular order)...
+
+* Clean up/refactor code
+* Replace the word 'objects' with 'documents' (don't know why I did that)
+* Better error handling
+* XSS Protection
+* Better Authentication Options
+* Ability to add document to collection
+* Ability to edit documents
+* Ability to delete documents (current link is non-functional)
+* Ability to change Doc_limit
+* Ability to view/add/edit/remove indexes
+* Ability to search a collection
